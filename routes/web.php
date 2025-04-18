@@ -8,3 +8,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/','layouts.index');
 Route::view('/movie','layouts.show');
+
