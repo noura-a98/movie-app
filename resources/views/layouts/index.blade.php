@@ -9,7 +9,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 place-items-center">
     <div class="mt-8">
         <a href="#">
-          <img src="{{ asset('img/parasite.jpg') }}" alt="parasite" class="hover:opacity-75 transition ease-in-out duraction-150">
+          <img src="{{ asset(path: 'img/parasite.jpg') }}" alt="parasite" class="hover:opacity-75 transition ease-in-out duraction-150">
         </a>
         <div class="mt-2">
           <a href="" class="text-lg mt-2 hover:text-gray:300">Parasite</a>
